@@ -3,7 +3,7 @@ cloned from [click here](https://github.com/RyanFitzgerald/devportfolio).
 Thanks to [click here](https://github.com/RyanFitzgerald).
 
 # Setup Portfolio
-1) fork repository
+1) fork original repository. [click here](https://github.com/RyanFitzgerald/devportfolio).
 2) rename repository
 3) go to settings enable github pages ( set sourcce to master branch )
 4) edit index.html, fill your personnal information
