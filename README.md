@@ -1,6 +1,6 @@
 # Dev Portfolio
-cloned from [click here](https://github.com/RyanFitzgerald/devportfolio).
-Thanks to [click here](https://github.com/RyanFitzgerald).
+cloned from [devportfolio](https://github.com/RyanFitzgerald/devportfolio).
+Thanks to [RyanFitzgerald](https://github.com/RyanFitzgerald).
 
 # Setup Portfolio
 1) fork original repository. [click here](https://github.com/RyanFitzgerald/devportfolio).
