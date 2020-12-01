@@ -1,4 +1,4 @@
-### Hi there, I'm Balamurugan - aka [BalaDhruv][website] 👋
+### Hi there, I'm Salim - aka [salim97][website] 👋
 
 ## I'm a Developer, and Teacher!
 - 🔭 I’m currently working on a [Flutter Redux Gen][flg]!
@@ -35,12 +35,12 @@
 
 ---
 
-<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=BalaDhruv&show_icons=true" />
+<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=salim97&show_icons=true" />
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BalaDhruv&show_icons=true)](https://github.com/BalaDhruv/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=salim97&show_icons=true)](https://github.com/salim97/github-readme-stats)
 
-[website]: https://balamurugan.dev/
-[chat-app]: https://chaty---chat-with-strangers.firebaseapp.com/splash
-[flg]: https://github.com/BalaDhruv/Flutter_Redux_Gen
-[instagram]: https://www.instagram.com/baladhruv/
-[linkedin]: https://www.linkedin.com/in/baladhruv/
+[website]: https://salim97.github.io/
+
+[flg]: https://github.com/salim97
+[instagram]: https://www.instagram.com/salim_benabadji/
+[linkedin]: https://www.linkedin.com/in/salim/
