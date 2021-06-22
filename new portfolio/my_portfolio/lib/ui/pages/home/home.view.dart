@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:my_portfolio/portfolio.dart' as g;
+import 'package:my_portfolio/theme.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:simple_icons/simple_icons.dart';
 
 class HomeView extends StatefulWidget {
-  HomeView({Key? key}) : super(key: key);
+  final ThemeData theme;
+  HomeView({Key? key, required this.theme}) : super(key: key);
 
   @override
   _HomeViewState createState() => _HomeViewState();
@@ -15,52 +17,12 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(18.0),
-      child: Scaffold(
-        backgroundColor: Colors.blue[100],
-        appBar: AppBar(
-          backgroundColor: Colors.transparent,
-          elevation: 0.0,
-          actions: [
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 18.0),
-              child: TextButton(
-                onPressed: () {},
-                child: Text(
-                  "Home",
-                  style: TextStyle(color: Colors.black),
-                ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 18.0),
-              child: TextButton(
-                onPressed: () {},
-                child: Text(
-                  "Home",
-                  style: TextStyle(color: Colors.black),
-                ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 18.0),
-              child: TextButton(
-                onPressed: () {},
-                child: Text(
-                  "Contact Me",
-                  style: TextStyle(color: Colors.black),
-                ),
-              ),
-            ),
-          ],
-        ),
-        body: ScreenTypeLayout(
-          mobile: mobile(),
-          tablet: desktop(),
-          desktop: desktop(),
-        ),
-      ),
+
+
+    return ScreenTypeLayout(
+      mobile: desktop(),
+      tablet: desktop(),
+      desktop: desktop(),
     );
   }
 
@@ -82,22 +44,34 @@ class _HomeViewState extends State<HomeView> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    g.full_name,
-                    style: TextStyle(fontSize: 30.0),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      g.full_name,
+                      style: widget.theme.textTheme.headline1,
+                    ),
                   ),
-                  Text(
-                    g.nickname,
-                    style: TextStyle(fontSize: 26.0),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      g.nickname,
+                      style: widget.theme.textTheme.subtitle1,
+                    ),
                   ),
-                  Text(
-                    g.subTitle,
-                    style: TextStyle(fontSize: 20.0),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      width: width * 0.42,
+                      child: Text(
+                        g.subTitle,
+                        style: widget.theme.textTheme.bodyText1,
+                      ),
+                    ),
                   ),
                   Wrap(
                     // Generate 100 widgets that display their index in the List.
                     children: List.generate(g.socialMediaLinks.length, (index) {
-                      print(g.socialMediaLinks.elementAt(index)["fontAwesomeIcon"]);
+                      // print(g.socialMediaLinks.elementAt(index)["fontAwesomeIcon"]);
                       return Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: FloatingActionButton(
@@ -115,7 +89,7 @@ class _HomeViewState extends State<HomeView> {
               top: 0,
               right: 0,
               bottom: 0,
-              width: width * 0.5,
+              width: width * 0.40,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -133,7 +107,7 @@ class _HomeViewState extends State<HomeView> {
       Center(
           child: Text(
         "What I Do ?",
-        style: TextStyle(fontSize: 32.0),
+        style: widget.theme.textTheme.headline2,
       )),
     ];
 
@@ -145,7 +119,7 @@ class _HomeViewState extends State<HomeView> {
       Center(
           child: Text(
         "Made with Flutter Web by Salim Benabadji",
-        style: TextStyle(fontSize: 24.0),
+        style: widget.theme.textTheme.subtitle2,
       )),
     );
     return ListView(
@@ -181,14 +155,13 @@ class _HomeViewState extends State<HomeView> {
                 children: [
                   Text(
                     element["title"],
-                    style: TextStyle(fontSize: 30.0),
+                    style: widget.theme.textTheme.headline3,
                   ),
                   Align(
                     alignment: Alignment.center,
                     child: Wrap(
                       // Generate 100 widgets that display their index in the List.
                       children: List.generate(element["softwareSkills"].length, (index) {
-                        print(g.socialMediaLinks.elementAt(index)["fontAwesomeIcon"]);
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Icon(
@@ -206,7 +179,7 @@ class _HomeViewState extends State<HomeView> {
                     children: skills.map((e) {
                       return Text(
                         e,
-                        style: TextStyle(fontSize: 20.0),
+                        style: widget.theme.textTheme.subtitle2,
                       );
                     }).toList(),
                   ),
@@ -217,12 +190,12 @@ class _HomeViewState extends State<HomeView> {
               top: 0,
               left: 0,
               bottom: 0,
-              width: width * 0.5,
+              width: width * 0.40,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 50.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 0.0),
                     child: Image.asset(element["fileName"]),
                   ),
                 ],

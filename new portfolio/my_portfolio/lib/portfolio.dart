@@ -62,9 +62,9 @@ const skills = [
     "title": "Full Stack Development",
     "fileName": "assets/images/fullstackdev.png",
     "skills": [
-      "⚡ Building resposive website front end using Flutter Web",
-      "⚡ Developing mobile applications using Flutter,",
-      "⚡ Creating application backend in Node, Express & NestJS",
+      "Building resposive website front end using Flutter Web",
+      "Developing mobile applications using Flutter,",
+      "Creating application backend in Node, Express & NestJS",
     ],
     "softwareSkills": [
       {
@@ -108,8 +108,8 @@ const skills = [
     "title": "Embedded Systems",
     "fileName": "assets/images/hardware.png",
     "skills": [
-      "⚡ Building Custom Electronic devices for specific needs",
-      "⚡ Working various interfaces ( WiFi, Bluetooth, I2C, SPI, USB, RS232 )",
+      "Building Custom Electronic devices for specific needs",
+      "Working various interfaces ( WiFi, Bluetooth, I2C, SPI, USB, RS232 )",
     ],
     "softwareSkills": [
       {
@@ -157,3 +157,94 @@ const skills = [
     ],
   },
 ];
+
+const degrees = [
+  {
+    "title": "University of Science and Technology of Oran",
+    "subtitle": "Master Degree in Computer Science",
+    "logo_path": "assets/images/USTO-LOGO.png",
+    "alt_name": "University of Science and Technology of Oran",
+    "duration": "2018 - 2020",
+    "descriptions": [
+      "Building Air Quality System from scratch, i used the following technology:",
+      " => programming Micro-controller ESP32 and wiring air sensor (Co, CO2, NH3 …)",
+      " => Firebase",
+      " => Flutter for mobile / web app",
+    ],
+    "website_link": "https://github.com/salim97/University-Graduation-Project-Air-Quality-System",
+  },
+  {
+    "title": "University of Science and Technology of Oran",
+    "subtitle": "Bachelor Degree in Computer Science",
+    "logo_path": "assets/images/USTO-LOGO.png",
+    "alt_name": "University of Science and Technology of Oran",
+    "duration": "2015 - 2018",
+    "descriptions": [
+      "Building Smart Home System from scratch, i used the following technology:",
+      " => programming Micro-controller ESP8266",
+      " => Using SBC ( Raspberry pi ) as server and QT5 as backend",
+      " => QT5 for Desktop app",
+    ],
+    "website_link": "https://www.univ-usto.dz/",
+  },
+];
+
+const certifications =  [
+    {
+      "title": "Qt 5 Core Advanced with C++",
+      "subtitle": "Udemy - June 14, 2019",
+      "logo_path": "assets/images/udemy-logo.png",
+      "certificate_link": "https://www.udemy.com/certificate/UC-OROX9FXP/",
+      "alt_name": "Udemy",
+      "color_code": Color(0xFF70C199),
+    },
+    {
+      "title": "Qt 6 Core Intermediate with C++",
+      "subtitle": "Udemy - May 28, 2021",
+      "logo_path": "assets/images/udemy-logo.png",
+      "certificate_link": "https://www.udemy.com/certificate/UC-b7ccb003-aab0-45d3-b58e-827ba5948374/",
+      "alt_name": "Udemy",
+      "color_code": Color(0xFF70C199),
+    },
+    {
+      "title": "Dart - Advanced Course",
+      "subtitle": "Udemy - October 13, 2018",
+      "logo_path": "assets/images/udemy-logo.png",
+      "certificate_link": "https://www.udemy.com/certificate/UC-C9RWAJZC/",
+      "alt_name": "Udemy",
+      "color_code": Color(0xFF70C199),
+    },
+    {
+      "title": "Dart 2 Complete Bootcamp - Go Hero from Zero in Dart Flutter",
+      "subtitle": "Udemy - October 13, 2018",
+      "logo_path": "assets/images/udemy-logo.png",
+      "certificate_link": "https://www.udemy.com/certificate/UC-31K1J2BE/",
+      "alt_name": "Udemy",
+      "color_code": Color(0xFF70C199),
+    },
+    {
+      "title": "Flutter - Advanced Course",
+      "subtitle": "Udemy - October 14, 2018",
+      "logo_path": "assets/images/udemy-logo.png",
+      "certificate_link": "https://www.udemy.com/certificate/UC-LEW1IHDU/",
+      "alt_name": "Udemy",
+      "color_code": Color(0xFF70C199),
+    },
+    {
+      "title": "JavaScript Algorithms and Data Structures",
+      "subtitle": "Freecodecamp - October 8, 2018",
+      "logo_path": "assets/images/freecodecamp1.png",
+      "certificate_link": "https://www.freecodecamp.org/certification/benabadjisalim/javascript-algorithms-and-data-structures",
+      "alt_name": "Freecodecamp",
+      "color_code": Color(0x809D5899),
+    },
+    {
+      "title": "1 Million Arab Coders Initiative",
+      "subtitle": "Udacity - February 2019",
+      "logo_path": "assets/images/udacity.png",
+      "certificate_link": "https://drive.google.com/file/d/12omIvEj6gZ8zc2_Aq1xib0JfmxOEduZr/view?usp=sharing",
+      "alt_name": "Udacity",
+      "color_code": Color(0x7F000099),
+    },
+  ]
+;
