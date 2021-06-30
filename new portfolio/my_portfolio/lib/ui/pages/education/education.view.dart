@@ -72,6 +72,7 @@ class _EducationViewState extends State<EducationView> {
                     "assets/images/education.png",
                     // height: 125.0,
                     // width: 125.0,
+                    
                   ),
                 ],
               ),

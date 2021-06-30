@@ -3,7 +3,9 @@ import 'package:my_portfolio/ui/pages/education/education.view.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 import 'theme.dart';
+import 'ui/pages/contact/contactme.view.dart';
 import 'ui/pages/home/home.view.dart';
+import 'ui/pages/projects/projects.view.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,7 +33,7 @@ enum Menu { home, education, projects, contact_me }
 
 class _MainWindowState extends State<MainWindow> {
 
-  Menu menu = Menu.education;
+  Menu menu = Menu.projects;
 
   @override
   Widget build(BuildContext context) {
@@ -63,8 +65,8 @@ class _MainWindowState extends State<MainWindow> {
     Widget bodyWidget = HomeView(theme: _theme);
     if (menu == Menu.home) bodyWidget = HomeView(theme: _theme);
     if (menu == Menu.education) bodyWidget = EducationView(theme: _theme);
-    if (menu == Menu.projects) bodyWidget = HomeView(theme: _theme);
-    if (menu == Menu.contact_me) bodyWidget = HomeView(theme: _theme);
+    if (menu == Menu.projects) bodyWidget = ProjectsView(theme: _theme);
+    if (menu == Menu.contact_me) bodyWidget = ContactMeView(theme: _theme);
 
     return Container(
       color: MyTheme.body,

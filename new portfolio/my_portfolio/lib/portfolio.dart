@@ -189,62 +189,115 @@ const degrees = [
   },
 ];
 
-const certifications =  [
-    {
-      "title": "Qt 5 Core Advanced with C++",
-      "subtitle": "Udemy - June 14, 2019",
-      "logo_path": "assets/images/udemy-logo.png",
-      "certificate_link": "https://www.udemy.com/certificate/UC-OROX9FXP/",
-      "alt_name": "Udemy",
-      "color_code": Color(0xFF70C199),
-    },
-    {
-      "title": "Qt 6 Core Intermediate with C++",
-      "subtitle": "Udemy - May 28, 2021",
-      "logo_path": "assets/images/udemy-logo.png",
-      "certificate_link": "https://www.udemy.com/certificate/UC-b7ccb003-aab0-45d3-b58e-827ba5948374/",
-      "alt_name": "Udemy",
-      "color_code": Color(0xFF70C199),
-    },
-    {
-      "title": "Dart - Advanced Course",
-      "subtitle": "Udemy - October 13, 2018",
-      "logo_path": "assets/images/udemy-logo.png",
-      "certificate_link": "https://www.udemy.com/certificate/UC-C9RWAJZC/",
-      "alt_name": "Udemy",
-      "color_code": Color(0xFF70C199),
-    },
-    {
-      "title": "Dart 2 Complete Bootcamp - Go Hero from Zero in Dart Flutter",
-      "subtitle": "Udemy - October 13, 2018",
-      "logo_path": "assets/images/udemy-logo.png",
-      "certificate_link": "https://www.udemy.com/certificate/UC-31K1J2BE/",
-      "alt_name": "Udemy",
-      "color_code": Color(0xFF70C199),
-    },
-    {
-      "title": "Flutter - Advanced Course",
-      "subtitle": "Udemy - October 14, 2018",
-      "logo_path": "assets/images/udemy-logo.png",
-      "certificate_link": "https://www.udemy.com/certificate/UC-LEW1IHDU/",
-      "alt_name": "Udemy",
-      "color_code": Color(0xFF70C199),
-    },
-    {
-      "title": "JavaScript Algorithms and Data Structures",
-      "subtitle": "Freecodecamp - October 8, 2018",
-      "logo_path": "assets/images/freecodecamp1.png",
-      "certificate_link": "https://www.freecodecamp.org/certification/benabadjisalim/javascript-algorithms-and-data-structures",
-      "alt_name": "Freecodecamp",
-      "color_code": Color(0x809D5899),
-    },
-    {
-      "title": "1 Million Arab Coders Initiative",
-      "subtitle": "Udacity - February 2019",
-      "logo_path": "assets/images/udacity.png",
-      "certificate_link": "https://drive.google.com/file/d/12omIvEj6gZ8zc2_Aq1xib0JfmxOEduZr/view?usp=sharing",
-      "alt_name": "Udacity",
-      "color_code": Color(0x7F000099),
-    },
-  ]
-;
+const certifications = [
+  {
+    "title": "Qt 5 Core Advanced with C++",
+    "subtitle": "Udemy - June 14, 2019",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link": "https://www.udemy.com/certificate/UC-OROX9FXP/",
+    "alt_name": "Udemy",
+    "color_code": Color(0xFF70C199),
+  },
+  {
+    "title": "Qt 6 Core Intermediate with C++",
+    "subtitle": "Udemy - May 28, 2021",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link": "https://www.udemy.com/certificate/UC-b7ccb003-aab0-45d3-b58e-827ba5948374/",
+    "alt_name": "Udemy",
+    "color_code": Color(0xFF70C199),
+  },
+  {
+    "title": "Dart - Advanced Course",
+    "subtitle": "Udemy - October 13, 2018",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link": "https://www.udemy.com/certificate/UC-C9RWAJZC/",
+    "alt_name": "Udemy",
+    "color_code": Color(0xFF70C199),
+  },
+  {
+    "title": "Dart 2 Complete Bootcamp - Go Hero from Zero in Dart Flutter",
+    "subtitle": "Udemy - October 13, 2018",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link": "https://www.udemy.com/certificate/UC-31K1J2BE/",
+    "alt_name": "Udemy",
+    "color_code": Color(0xFF70C199),
+  },
+  {
+    "title": "Flutter - Advanced Course",
+    "subtitle": "Udemy - October 14, 2018",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link": "https://www.udemy.com/certificate/UC-LEW1IHDU/",
+    "alt_name": "Udemy",
+    "color_code": Color(0xFF70C199),
+  },
+  {
+    "title": "JavaScript Algorithms and Data Structures",
+    "subtitle": "Freecodecamp - October 8, 2018",
+    "logo_path": "assets/images/freecodecamp1.png",
+    "certificate_link": "https://www.freecodecamp.org/certification/benabadjisalim/javascript-algorithms-and-data-structures",
+    "alt_name": "Freecodecamp",
+    "color_code": Color(0x809D5899),
+  },
+  {
+    "title": "1 Million Arab Coders Initiative",
+    "subtitle": "Udacity - February 2019",
+    "logo_path": "assets/images/udacity.png",
+    "certificate_link": "https://drive.google.com/file/d/12omIvEj6gZ8zc2_Aq1xib0JfmxOEduZr/view?usp=sharing",
+    "alt_name": "Udacity",
+    "color_code": Color(0x7F000099),
+  },
+];
+
+const projects = [
+  {
+    "title": "Qt QML Digital Servo Motor MG 996R Application",
+    "subtitle": "Control Digital Servo Motor on real time, using application cross platform ( windows, android  ) ",
+    "cover_image_url": "assets/images/youtube-servo-motor-2018.gif",
+    "repository_url": "https://github.com/salim97/My-Digital-Servo-Motor",
+    "youtube_url": "https://www.youtube.com/watch?v=EHaF01cJuXc",
+  },
+  {
+    "title": "My Mini Radar - Qt + ESP8266 + MG996R + HC SR04",
+    "subtitle":
+        "building simple radar using ESP8266 and servo motor MG 996R and HC-SR04, and the application is cross platform (windows, android ...).",
+    "cover_image_url": "assets/images/My-Mini-Radar.gif",
+    "repository_url": "https://github.com/salim97/My-Mini-Radar",
+    "youtube_url": "https://www.youtube.com/watch?v=iYSFZ4Aru64",
+  },
+  {
+    "title": "Qt QML Matrix LED Designer Application",
+    "subtitle": "Real time painting on matrix led 7x5, using esp8266 and qt application cross platform ( android, windows, ... )",
+    "cover_image_url": "assets/images/My-LED-Matrix-Designer.jpg",
+    "repository_url": "https://github.com/salim97/My-LED-Matrix-Designer",
+    "youtube_url": "https://www.youtube.com/watch?v=nxqmDQN6-Xw",
+  },
+  {
+    "title": "Qt QML 4 Digit-7 Segment Control",
+    "subtitle": "control 4 digit from network using application cross platform, real time",
+    "cover_image_url": "assets/images/My-4-Digit-7-Segment-Control.jpg",
+    "repository_url": "https://github.com/salim97/My-4-Digit-7-Segment-Control",
+    "youtube_url": "https://www.youtube.com/watch?v=Zn20uOZ-Sms",
+  },
+];
+
+
+const contactPageData = {
+  "contactSection": {
+    "title": "Contact Me",
+    "profile_image_path": "assets/images/me.png",
+    "description":
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ESP8266, ESP32, Flutter, Linux CLI, Qt  Development.",
+  },
+
+  "addressSection": {
+    "title": "Address",
+    "subtitle":
+      "Algeria, Oran",
+    "avatar_image_path": "assets/images/address_image.png",
+    "location_map_link": "https://goo.gl/maps/L8LFwWQ4GkjQqj1V9",
+  },
+  "phoneSection": {
+    "title": "Email",
+    "subtitle": "benabadji.mohammed.salim@gmail.com",
+  },
+};
